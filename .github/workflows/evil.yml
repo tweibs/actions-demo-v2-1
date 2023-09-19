@@ -1,0 +1,10 @@
+name: Evil Flow
+
+on: pull_request
+
+jobs:
+  evil:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Evil Action
+        run: echo "My Evil Action"
